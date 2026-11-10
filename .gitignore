@@ -1,0 +1,9 @@
+node_modules/
+exports/
+*.log
+.env
+.env.*
+/runtime/session.json
+/runtime/local-*.json
+/production/public/*.ttf
+/production/public/*.otf

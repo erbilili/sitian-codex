@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>司天阁 V2 · 动画预览</title><link rel="icon" href="data:,"><link rel="stylesheet" href="preview.css"></head>
+<body>
+<header><div><strong>司天 <span>／ CODEX</span></strong><small>星海初醒 · 司天临位 · 静候诸契</small></div><a href="/test-host.html">查看模拟工作界面 ↗</a></header>
+<main><div id="scene" role="img" aria-label="司天启动与驻守动画"></div></main>
+<nav aria-label="播放操作"><button id="replay" disabled>重播开场</button><button id="handoff" disabled>查看交接</button><button id="skip" disabled>跳过至驻守</button><button id="pause" disabled>暂停</button><button id="fullscreen">全屏</button><button id="bench" disabled>测量开场播放</button><label><input id="reduce" type="checkbox">减少动态</label></nav>
+<section class="scrubbers" aria-label="逐帧查看"><label>开场 <input id="timeline" type="range" min="0" max="10.5" step="0.005" value="0" disabled><output id="startup-time">0.00 / 10.50 秒</output></label><label>交接 <input id="entry-timeline" type="range" min="0" max="1.5" step="0.005" value="0" disabled><output id="entry-time">0.00 / 1.50 秒</output></label></section>
+<div id="checkpoints" aria-label="开场节点"><button data-time="0">星海初醒</button><button data-time="1.2">星轨归位</button><button data-time="2.4">灵台启明</button><button data-time="3.6">玉衡校准</button><button data-time="4.8">诸契归位</button><button data-time="6">诸契就绪</button><button data-time="7.2">司天临位</button><button data-time="8">七步完成</button><button data-time="9.3">欢迎归阁</button><button data-time="10.49">交接前一帧</button></div>
+<footer><output id="status" aria-live="polite">正在加载本地影片…</output><output id="qa-report"></output></footer>
+<p class="note">独立影片预览 · 非真实 Codex 客户端<br>10.5 秒开场 ＋ 1.5 秒交接 · 16 秒无文字驻守循环 · 1920 × 1080 / 30 fps · 全程静音 · 120/180秒独立星轨<br>Esc 跳过至驻守；减少动态直接显示驻守静帧。制作源码位于相邻 production 目录，日常播放只解码本地 MP4。</p>
+<script type="module" src="preview.mjs"></script>
+</body></html>

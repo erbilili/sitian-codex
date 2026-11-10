@@ -1,0 +1,21 @@
+{
+  "title": "司天阁",
+  "subtitle": "司天临位 · 诸契就绪",
+  "englishSubtitle": "SITIAN",
+  "durationSeconds": 10.5,
+  "exportWidth": 1920,
+  "exportHeight": 1080,
+  "exportFps": 30,
+  "exportBitrate": 5000000,
+  "audioFile": null,
+  "backgroundStrength": 0.85,
+  "liveMaxWidth": 1920,
+  "wallpaperFile": "wallpaper.mp4",
+  "handoffFile": "handoff.mp4",
+  "workEntrySeconds": 1.5,
+  "wallpaperCycle": "single-periodic",
+  "panelOpacity": 0.6,
+  "wallpaperDurationSeconds": 16,
+  "backgroundFps": 30,
+  "reduceMotion": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sitian-codex-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test production/*.test.mjs runtime/tests/*.test.mjs",
+    "studio": "remotion studio production/index.tsx --public-dir=production/public --no-open",
+    "preview": "node runtime/server.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "engines": {
+    "node": ">=22.3.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.535",
+    "remotion": "4.0.535",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}
